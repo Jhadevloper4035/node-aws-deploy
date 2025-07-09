@@ -17,6 +17,11 @@ app.get('/contact', (req, res) => {
   res.send('Contact Us Here');
 });
 
+app.get('/faq', (req, res) => {
+  res.send('faq page  Us Here');
+});
+
+
 module.exports = app;
 
 if (require.main === module) {
