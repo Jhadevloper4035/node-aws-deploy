@@ -5,7 +5,7 @@ describe('Route Testing', () => {
   test('GET / should return Home Page', async () => {
     const res = await request(app).get('/');
     expect(res.statusCode).toBe(200);
-    expect(res.text).toBe('Welcome to the Our Website - skydecor !');
+    expect(res.text).toBe('Hello World!');
   });
 
   test('GET /about should return About Us', async () => {
