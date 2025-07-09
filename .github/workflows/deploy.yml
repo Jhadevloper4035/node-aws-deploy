@@ -26,5 +26,5 @@
               run : npm  test 
 
             - name : "Deploye to aws"
-              run  : pm2 start node-aws-deploy/index.js
-              
+              run  : pm2 restart server
+

@@ -6,7 +6,7 @@ require('dotenv').config();
 const port = process.env.PORT || 3001
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the Our Website - skydecor !');
+  res.send('Hello World!');
 });
 
 app.get('/about', (req, res) => {
