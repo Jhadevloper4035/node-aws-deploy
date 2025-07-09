@@ -21,8 +21,6 @@
             - name : "Install the dependencies"
               run  : npm install 
 
-            - name : "install pm2 globally "
-              run : npm install pm2 -g 
 
             - name : "Run tests"
               run : npm  test 
